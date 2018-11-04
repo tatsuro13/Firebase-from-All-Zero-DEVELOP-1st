@@ -1,0 +1,75 @@
+/* header area */
+#header {
+ height: 48px;
+}
+#header>h1 {
+ font-size: 18px;
+}
+
+/* input area */
+#input_area_back {
+ background-color: #e16e36;
+}
+#input_area {
+ max-width: 960px;
+ margin: 0px auto;
+ padding: 24px;
+ color: #333;
+}
+#input_area>h2 {
+ color: #fff;
+ font-size: 30px;
+ font-style: normal;
+ font-weight: 400;
+}
+#input_area>form>div>label {
+ color: #fff;
+ font-weight: 400;
+}
+.lf {
+ float: left;
+ padding: 10px 0px;
+ margin-right: 20px;
+}
+.text_field {
+ width: 400px;
+ min-height: 32px;
+ margin-top: 10px 20px 5px 0px;
+ padding: 0px 8px;
+}
+.my_button {
+ min-height: 36px;
+ margin: 10px 20px 10px 0px;
+ padding: 0px 17px;
+ background-color: #fff;
+ color: #e16e36;
+}
+
+/* output_area */
+#output_area{
+ max-width: 960px;
+ margin: 0px auto;
+ padding: 0px 24px;
+}
+th,tr {
+ font-size: 12px;
+ padding: 8px;
+ width : 100px;
+}
+.url {
+ width: 30%;
+}
+
+/* footer area */
+#footer {
+ max-height: 64px;
+ background-color: #eee;
+}
+.goo_footer {
+ padding: 20px 24px;
+ color: #777;
+}
+.goo_footer>li {
+ display: inline-block;
+ padding: 0px 10px;
+}

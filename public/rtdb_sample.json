@@ -1,0 +1,41 @@
+{
+ "users":{
+   "u000001":{
+    "name": "mike",
+    "owner":["s000001","s000004"]
+   },
+   "u000002":{
+    "name": "ppkppm",
+    "owner":["s000002"]
+   },
+   "u000003":{
+    "name": "worldend",
+    "owner":["s000003"]
+   }
+ },
+ "shortens":{
+  "s000001":{
+   "short_url":"http://myshrtn.firebaseapp.com/re.html",
+   "source_url":"https://drive.google.com/open?id=1QfpVk0Y9UApKkKFzyttEOOTI1pUVIvpU",
+   "pass": false
+  },
+  "s000002":{
+   "short_url":"http://myshrtn.firebaseapp.com/re.html",
+   "source_url":"https://drive.google.com/open?id=1qF05CND-sKMDNENQDgadFpB_llPeCQQE",
+   "pass": false
+  },
+  "s000003":{
+   "short_url":"http://myshrtn.firebaseapp.com/re.html",
+   "source_url":"https://drive.google.com/open?id=1emPYNnGN0V666p1gdIfrHXjFWnN6HyZP",
+   "pass": false
+  },
+  "s000004":{
+   "short_url":"http://myshrtn.firebaseapp.com/re.html",
+   "source_url":"https://drive.google.com/open?id=1fBXElo6GEiwcVynHKd-o92wCXIyCyED0",
+   "pass": true
+  }
+ },
+ "pass":{
+  "s000004":"abxy"
+ }
+}

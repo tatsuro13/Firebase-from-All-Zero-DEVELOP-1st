@@ -1,0 +1,1 @@
+setTimeout("window.location.replace('https://www.google.co.jp/')",0);

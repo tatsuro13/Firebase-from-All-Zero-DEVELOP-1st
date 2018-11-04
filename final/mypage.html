@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+   <title>My Shortener</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+    
+   <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+   <script>
+    // Initialize Firebase
+    var config = {
+     apiKey: "AIzaSyDlBz9jFdxHj9e9dUq1NmWoOnrXT-lKDWQ",
+     authDomain: "myshrtn.firebaseapp.com",
+     databaseURL: "https://myshrtn.firebaseio.com",
+     projectId: "myshrtn",
+     storageBucket: "myshrtn.appspot.com",
+     messagingSenderId: "338369854049"
+    };
+    firebase.initializeApp(config);
+   </script>
+   
+   <script type="text/javascript" src="javascript/dataread.js"></script>
+   <script type="text/javascript" src="javascript/datawrite.js"></script>
+ </head>
+ <body>
+  <div id="header" class="goo_header">
+    <h1>My Shortener</h1>
+  </div>
+  <div id="main_container">
+    <div id="input_area_back">
+      <div id="input_area">
+        <h2 id="hello_user"></h2>
+        <h2>Input your URL/File</h2>
+        <form id="url_maker" name="">
+          <div>
+            <input type="checkbox" name="locked" id="want">
+            <label for="want">want to lock</label>
+          </div>
+          <div class="lf">
+            <input id="original_path" class="text_field" type="text" value="" placeholder="Paste your original URL here or click upload">
+          </div>
+          <div>
+            <input id="upload" class="my_button" type="button" value="upload" onclick="onUploadClick();">
+            <input id="create" class="my_button" type="button" value="CREATE URL" onclick="onCreateUrlClick();">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Lock</th>
+            <th class="url">Original URL</th>
+            <th>Created</th>
+            <th class="url">Short URL</th>
+            <th>All Clicks</th>
+            <th>Option</th>
+          </tr>
+        </thead>
+        <tbody id="output_area">
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div id="footer">
+    <ul class="goo_footer">
+      <li><a href="support.html">About</a></li>
+    </ul>
+  </div>
+ </body>
+</html>
