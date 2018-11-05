@@ -3,6 +3,21 @@
   <head>
     <meta charset="UTF-8">
     <title>My Shortener</title>
+    <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAaFigtvNaWCRTkVcukTLdq7Iw3t2DoFPI",
+    authDomain: "myshortner-6329c.firebaseapp.com",
+    databaseURL: "https://myshortner-6329c.firebaseio.com",
+    projectId: "myshortner-6329c",
+    storageBucket: "myshortner-6329c.appspot.com",
+    messagingSenderId: "44183330947"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="javascript/dataread.js"></script>
+<script src="javascript/datawrite.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
